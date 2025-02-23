@@ -1,0 +1,34 @@
+{
+	"pages":{
+		"ch1":{
+			"page0":[
+				{
+					"ROW":0,
+					"NOTE":"C-1",
+					"VOL":15,
+					"FX":[]
+
+				},//...
+			],
+		}
+	},
+	"patterns":{
+		"orders":[
+			[2,1,1,0,0],
+			[2,1,1,0,0],
+			[3,2,2,0,0],
+			[4,3,3,0,0]
+		]
+	},
+	"instruments":{//todo, just taking name for now
+		"0":{
+			"name":"New instrument", // considering using this to denote how you want it parsed
+		}
+	},
+	"settings":{
+		"rows":64,
+		"speed":6,
+		"bpm":150,
+		"name":"New song"
+	}
+}
